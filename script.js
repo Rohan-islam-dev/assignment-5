@@ -92,8 +92,8 @@ for(let i = 0; i<copybutton.length; i++){
      copyCounts += 1;
      copyCount.innerText = copyCounts;
 
-    const number = document.querySelectorAll("#num")[i].innerText;
-    alert(`নাম্বার কপি হয়েছে: ${number}`)
+    const numbers = document.querySelectorAll("#num")[i].innerText;
+    alert(`নাম্বার কপি হয়েছে: ${numbers}`)
 
   })
 }
