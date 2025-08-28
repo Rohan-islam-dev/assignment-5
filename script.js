@@ -88,13 +88,13 @@ const copyCount = document.getElementById('copy-count');
 for(let i = 0; i<copybutton.length; i++){
   copybutton[i].addEventListener('click',function(){
     
-    
+    const numbers = document.querySelectorAll(".num")[i].innerText;
     
      let copyCounts = parseInt(copyCount.innerText);
      copyCounts += 1;
      copyCount.innerText = copyCounts;
 
-    const numbers = document.querySelectorAll(".num")[i].innerText;
+    
 
     navigator.clipboard.writeText(numbers);
     alert(`নাম্বার কপি হয়েছে: ${numbers}`)
