@@ -73,7 +73,8 @@ for (let i = 0; i < callButtons.length; i++) {
 //clear history
 document.getElementById('btn-clear').addEventListener('click',function(){
    const history = document.getElementById('History');
-   history.style.display = 'none';
+  //  history.style.display = 'none';
+  history.innerHTML = '';
 })
 
 
