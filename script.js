@@ -11,3 +11,29 @@ for (const heart of hearts) {
 }
 
 
+//callig btn
+
+const callButtons = document.querySelectorAll('#btn-call');
+const starRemoveEl = document.getElementById('star-remove');
+
+for (let i = 0; i < callButtons.length; i++) {
+    callButtons[i].addEventListener('click', function () {
+        
+        let credit = parseInt(starRemoveEl.innerText);
+
+        if(credit < 20){
+            alert('terminate the process')
+            return;
+        }
+
+        const serviceName = document.querySelectorAll("#service")[i].innerText;
+        const number = document.querySelectorAll("#num")[i].innerText;
+
+        alert(`calling: ${serviceName} number: ${number}`);
+
+        
+        credit -= 20;
+        starRemoveEl.innerText = credit;
+    })
+}
+

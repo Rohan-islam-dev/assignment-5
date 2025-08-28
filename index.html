@@ -16,7 +16,7 @@
     />
   </head>
   <body>
-    <header class="ml-0 2xl:mx-[70px]">
+    <header class="ml-0 2xl:mx-[70px] ">
       <nav class="sm:flex justify-between h-[100px] items-center">
         <div class="flex">
           <img class=" w-[50px]" src="./assets/logo.png" alt="" />
@@ -37,7 +37,7 @@
           <div
             class="rounded-[50px] flex justify-between w-[90px] py-2 bg-[#41ff6b1a]"
           >
-            <span class="ml-3">100</span>
+            <span id="star-remove" class="ml-3">100</span>
             <img class="w-[25px] mr-3" src="./assets/coin.png" alt="" />
           </div>
 
@@ -69,7 +69,7 @@
       </section>
 
       <!-- card section -->
-      <section class="  mt-1 2xl:flex  gap-8 mt-[48px]  ">
+      <section class="2xl:flex  gap-8 mt-[48px]  ">
         <div class=" w-[80%] 2xl:max-h-[1250px]">
           <!-- card -->
           <div class="grid sm:grid-cols-1 ml-10 w-full 2xl:grid-cols-3 gap-9">
@@ -81,17 +81,17 @@
                 <i class="heart-count fa-regular fa-heart text-3xl"></i>
               </div>
               <h3 class="text-xl mt-4 font-bold">জাতীয় জরুরি সেবা</h3>
-              <p >National Emergency</p>
-              <p class="mt-6 font-bold text-4xl">999</p>
+              <p id="service">National Emergency</p>
+              <p id="num" class="mt-6 font-bold text-4xl">999</p>
               <div class="rounded-[50px] flex w-[90px] py-1 bg-[#f2f2f2]">
                 <p class="ml-2">সার্বজনীন</p>
               </div>
               <div class="flex gap-2 mt-[30px]">
-                <button class="border-1 w-[50%] rounded-md py-2 text-[#5C5C5C]">
+                <button class="border-1 w-[50%] rounded-md py-2 text-[#5C5C5C]" >
                   <i class="fa-regular fa-copy text-[#5C5C5C] "></i>Copy
                 </button>
                 <button
-                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white"
+                 class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white" id="btn-call"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -106,8 +106,8 @@
                 <i  class="heart-count fa-regular fa-heart text-3xl"></i>
               </div>
               <h3 class="text-xl mt-4 font-bold">পুলিশ</h3>
-              <p >Police</p>
-              <p class="mt-6 font-bold text-4xl">999</p>
+              <p id="service" >Police</p>
+              <p id="num" class="mt-6 font-bold text-4xl">999</p>
               <div class="rounded-[50px] flex w-[90px] py-1 bg-[#f2f2f2]">
                 <p class="ml-2">পুলিশ</p>
               </div>
@@ -116,7 +116,7 @@
                   <i class="fa-regular fa-copy text-[#5C5C5C]"></i>Copy
                 </button>
                 <button
-                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white"
+                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white" id="btn-call"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -131,8 +131,8 @@
                 <i  class="heart-count fa-regular fa-heart text-3xl"></i>
               </div>
               <h3 class="text-xl mt-4 font-bold">ফায়ার সার্ভিস</h3>
-              <p>Fire Service</p>
-              <p class="mt-6 font-bold text-4xl">999</p>
+              <p id="service">Fire Service</p>
+              <p id="num" class="mt-6 font-bold text-4xl">999</p>
               <div class="rounded-[50px] flex w-[90px] py-1 bg-[#f2f2f2]">
                 <p class="ml-2">ফায়ার</p>
               </div>
@@ -141,7 +141,7 @@
                   <i class="fa-regular fa-copy text-[#5C5C5C]"></i>Copy
                 </button>
                 <button
-                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white"
+                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white" id="btn-call"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -156,8 +156,8 @@
                 <i class="heart-count fa-regular fa-heart text-3xl"></i>
               </div>
               <h3 class="text-xl mt-4 font-bold">অ্যাম্বুলেন্স</h3>
-              <p class="ml-2">Ambulance</p>
-              <p class="mt-6 font-bold text-4xl">1994-999999</p>
+              <p id="service" class="ml-2">Ambulance</p>
+              <p id="num" class="mt-6 font-bold text-4xl">1994-999999</p>
               <div class="rounded-[50px] flex w-[90px] py-1 bg-[#f2f2f2]">
                 <p class="ml-2">স্বাস্থ্য</p>
               </div>
@@ -166,7 +166,7 @@
                   <i class="fa-regular fa-copy text-[#5C5C5C]"></i>Copy
                 </button>
                 <button
-                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white"
+                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white" id="btn-call"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -181,8 +181,8 @@
                 <i class="heart-count fa-regular fa-heart text-3xl"></i>
               </div>
               <h3 class="text-xl mt-4 font-bold">নারী ও শিশু সহায়তা</h3>
-              <p>Women & Child Helpline</p>
-              <p class="mt-6 font-bold text-4xl">109</p>
+              <p id="service">Women & Child Helpline</p>
+              <p id="num" class="mt-6 font-bold text-4xl">109</p>
               <div class="rounded-[50px] flex w-[90px] py-1 bg-[#f2f2f2]">
                 <p class="ml-2">সহায়তা</p>
               </div>
@@ -191,7 +191,7 @@
                   <i class="fa-regular fa-copy text-[#5C5C5C]"></i>Copy
                 </button>
                 <button
-                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white"
+                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white" id="btn-call"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -206,8 +206,8 @@
                 <i class="heart-count fa-regular fa-heart text-3xl"></i>
               </div>
               <h3 class="text-xl mt-4 font-bold">দুদক</h3>
-              <p >Anti-Corruption</p>
-              <p class="mt-6 font-bold text-4xl">106</p>
+              <p id="service">Anti-Corruption</p>
+              <p id="num" class="mt-6 font-bold text-4xl">106</p>
               <div class="rounded-[50px] flex w-[90px] py-1 bg-[#f2f2f2]">
                 <p class="ml-2">সরকারি </p>
               </div>
@@ -216,7 +216,7 @@
                   <i class="fa-regular fa-copy text-[#5C5C5C]"></i>Copy
                 </button>
                 <button
-                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white"
+                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white" id="btn-call"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -231,8 +231,8 @@
                 <i class="heart-count fa-regular fa-heart text-3xl"></i>
               </div>
               <h3 class="text-xl mt-4 font-bold">বিদ্যুৎ বিভ্রাট</h3>
-              <p>Electricity Outage</p>
-              <p class="mt-6 font-bold text-4xl">16216</p>
+              <p id="service">Electricity Outage</p>
+              <p id="num" class="mt-6 font-bold text-4xl">16216</p>
               <div class="rounded-[50px] flex w-[90px] py-1 bg-[#f2f2f2]">
                 <p class="ml-2">বিদ্যুৎ</p>
               </div>
@@ -241,7 +241,7 @@
                   <i class="fa-regular fa-copy text-[#5C5C5C]"></i>Copy
                 </button>
                 <button
-                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white"
+                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white" id="btn-call"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -256,8 +256,8 @@
                 <i class="heart-count fa-regular fa-heart text-3xl"></i>
               </div>
               <h3 class="text-xl mt-4 font-bold">ব্র্যাক</h3>
-              <p>Brac</p>
-              <p class="mt-6 font-bold text-4xl">16445</p>
+              <p id="service">Brac</p>
+              <p id="num" class="mt-6 font-bold text-4xl">16445</p>
               <div class="rounded-[50px] flex w-[90px] py-1 bg-[#f2f2f2]">
                 <p class="ml-2">এনজিও</p>
               </div>
@@ -266,7 +266,7 @@
                   <i class="fa-regular fa-copy text-[#5C5C5C]"></i>Copy
                 </button>
                 <button
-                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white"
+                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white" id="btn-call"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -281,8 +281,8 @@
                 <i class="heart-count fa-regular fa-heart text-3xl"></i>
               </div>
               <h3 class="text-xl mt-4 font-bold">বাংলাদেশ রেলওয়ে</h3>
-              <p class="">Bangladesh Railway</p>
-              <p class="mt-6 font-bold text-4xl">163</p>
+              <p id="service" class="">Bangladesh Railway</p>
+              <p id="num" class="mt-6 font-bold text-4xl">163</p>
               <div class="rounded-[50px] flex w-[90px] py-1 bg-[#f2f2f2]">
                 <p class="ml-2">পরিবহন</p>
               </div>
@@ -291,7 +291,7 @@
                   <i class="fa-regular fa-copy text-[#5C5C5C]"></i>Copy
                 </button>
                 <button
-                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white"
+                  class="border-1 w-[50%] bg-[#00a63e] rounded-md text-white" id="btn-call"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
