@@ -12,7 +12,7 @@ for (const heart of hearts) {
 
 //callig btn
 
-const callButtons = document.querySelectorAll("#btn-call");
+const callButtons = document.querySelectorAll(".btn-call");
 const starRemoveEl = document.getElementById("star-remove");
 const callHistoryList = document.querySelector("#History ul");
 
@@ -26,7 +26,7 @@ for (let i = 0; i < callButtons.length; i++) {
     }
 
     const serviceName = document.querySelectorAll("#service")[i].innerText;
-    const number = document.querySelectorAll("#num")[i].innerText;
+    const number = document.querySelectorAll(".num")[i].innerText;
 
     alert(`calling: ${serviceName} number: ${number}`);
 
@@ -94,7 +94,7 @@ for(let i = 0; i<copybutton.length; i++){
      copyCounts += 1;
      copyCount.innerText = copyCounts;
 
-    const numbers = document.querySelectorAll("#num")[i].innerText;
+    const numbers = document.querySelectorAll(".num")[i].innerText;
 
     navigator.clipboard.writeText(numbers);
     alert(`নাম্বার কপি হয়েছে: ${numbers}`)
