@@ -68,3 +68,10 @@ for (let i = 0; i < callButtons.length; i++) {
     callHistoryList.appendChild(li);
   });
 }
+
+
+//clear history
+document.getElementById('btn-clear').addEventListener('click',function(){
+   const history = document.getElementById('History');
+   history.style.display = 'none';
+})
